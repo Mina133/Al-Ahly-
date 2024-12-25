@@ -1,0 +1,15 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="text-center">
+    <h1>Welcome to Al-Ahly FC Management System</h1>
+    <img src="/static/images.jpeg" alt="Al-Ahly Logo" class="img-fluid" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+
+    <div class="mt-4">
+        <a href="/members/" class="btn btn-primary btn-lg m-2">Manage Members</a>
+        <a href="/teams/" class="btn btn-secondary btn-lg m-2">Manage Teams</a>
+        <a href="/subscriptions/" class="btn btn-success btn-lg m-2">Manage Subscriptions</a>
+        <a href="/expenses/" class="btn btn-danger btn-lg m-2">Manage Expenses</a>
+    </div>
+</div>
+
+{% endblock %}
