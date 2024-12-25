@@ -5,3 +5,4 @@ class MemberForm(forms.ModelForm):
     class Meta:
         model = Member
         fields = ['name', 'email', 'phone_number', 'subscription_status']
+        
