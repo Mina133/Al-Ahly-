@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'Al_Ahly_FC',
     'subscriptions',
     'expenses',
+    'reports',
 ]
 
 MIDDLEWARE = [
