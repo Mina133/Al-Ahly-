@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-h7-=^o5t$=^%3##6uz%4ep-at6mtr%j8*b-a%^w!xbh60)&e!p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False 
 
-ALLOWED_HOSTS = [al-ahly.onrender.com]
+ALLOWED_HOSTS = ['al-ahly.onrender.com']
 
 
 # Application definition
